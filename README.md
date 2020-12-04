@@ -21,6 +21,7 @@ if that didn't work type this
 ```bash
 python server.py
 ```
+
 ---------------------------------------
 
 
@@ -41,6 +42,9 @@ if that didn't work type this
 ```bash
 python connect.py
 ```
+
+***if you want to close your current connection DO NOT exit out of the termenal becouse that will throw an error in the server side***
+
 # note
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
