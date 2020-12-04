@@ -21,7 +21,7 @@ if that didn't work type this
 ```bash
 python server.py
 ```
-
+if you want to close your server you can just ctrl+c
 ---------------------------------------
 
 
@@ -42,7 +42,7 @@ if that didn't work type this
 ```bash
 python connect.py
 ```
-
+if you want to close your connection you can just ctrl+c
 ***if you want to close your current connection DO NOT exit out of the termenal because that will throw an error in the server side***
 
 # note
