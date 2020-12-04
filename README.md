@@ -11,15 +11,15 @@ you can install Python-socket-messaging-protocol by writing the folowing command
 git clone https://github.com/xxhmode14/Python-socket-messaging-protocol.git
 ```
 # Usage
-
+# server
 to start the server, first get in the same directory as the python script, then run the folowing command:
 
 ```bash
 python3 server.py
 ```
-if you want to close your server you can just ctrl+c
----------------------------------------
+***if you want to close your server you can just ctrl+c***
 
+# connecter
 if you want to connect to a server run this command:
 ```bash
 python3 connect.py HOST PORT
