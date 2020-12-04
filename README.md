@@ -43,7 +43,7 @@ if that didn't work type this
 python connect.py
 ```
 
-***if you want to close your current connection DO NOT exit out of the termenal becouse that will throw an error in the server side***
+***if you want to close your current connection DO NOT exit out of the termenal because that will throw an error in the server side***
 
 # note
 
