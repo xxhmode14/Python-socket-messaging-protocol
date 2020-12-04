@@ -106,41 +106,7 @@ class sock_server():
         sock.detach()
         sock.close()
         exit(0)
-#def start():
-#    try:
-#        def exec_cmd(cmd):
-#            with os.popen(cmd) as cmd_file:
-#                return cmd_file.read()
-#        while True:
-#            data = conn.recv(1024)
-#            data = repr(data)
-#            data = data[1:]
-#            data = data[1:]
-#            data = data[:len(data) - 1]
-#            if data.split(" ")[0] == "-$close" or data.split(" ")[0] == "-$exit":
-#                self.exit()
-#            elif data.split(" ")[0] == "-$cmd":
-#                cmd = data.split(" ")[1:]
-#                full_cmd = ""
-#                for cmd_str in cmd:
-#                    full_cmd += cmd_str
-#                cmd_out = exec_cmd(full_cmd)
-#                conn.sendall(bytes(cmd_out,"utf-8"))
-#                continue
-#
-#            try:
-#                if is_clean(data) == False:
-#                    conn.sendall(bytes("Sorry You can't run this command!","utf-8"))
-#                    continue
-#                cmd_out = exec_cmd(data)
-#                conn.sendall(bytes(cmd_out,"utf-8"))
-#            except:
-#                conn.sendall(bytes("Faild while running the command!","utf-8"))
-#    except KeyboardInterrupt:
-#        print("\nExiting . . .")
-#        sock.detach()
-#        sock.close()
-#        exit(0)
+
 
 if __name__ == "__main__":
     sock_server().start()
