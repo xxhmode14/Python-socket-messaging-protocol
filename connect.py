@@ -4,10 +4,13 @@ import readline
 import os
 import threading
 import time
-ip_addr = "127.0.0.1" # the server public ip address or keep it as is for a local server
-port = 8888
-
-datas = []
+import sys
+try:
+    ip_addr = str(sys.argv[1])
+    port = int(sys.argv[2])
+except:
+    print(f"Usage: python3 {sys.argv[0]} HOST_IP PORT")
+    exit(0)
 
 def Beautify(text : bytes):
     text = repr(text).replace("\\n","\n").replace("\\x1b","\033")
