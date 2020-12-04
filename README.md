@@ -33,7 +33,14 @@ port = 8888
 ```
 change the ip_addr var to the server ip address and the port to the server port.
 
-
+then, run this command:
+```bash
+python3 connect.py
+```
+if that didn't work type this
+```bash
+python connect.py
+```
 # note
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
