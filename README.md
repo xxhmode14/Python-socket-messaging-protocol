@@ -33,7 +33,6 @@ port = 8888
 ```
 change the ip_addr var to the server ip address and the port to the server port.
 
-------------------------------------------
 
 # note
 
